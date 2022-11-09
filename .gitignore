@@ -1,0 +1,5 @@
+.env
+data/
+dataCNN/
+.ipynb_checkpoints
+haarcascade_frontalface_default.xml
