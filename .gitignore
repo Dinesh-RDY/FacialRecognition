@@ -3,3 +3,6 @@ data/
 dataCNN/
 .ipynb_checkpoints
 haarcascade_frontalface_default.xml
+test
+model1ANN.h5
+modelCNN.h5

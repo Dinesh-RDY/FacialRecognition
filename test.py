@@ -22,7 +22,7 @@ while True:
         except:
             continue
         cv2.imshow("gray" , gray)
-        gray = gray.reshape(-1, 256, 256, 1).astype('float32') / 255.
+        gray = gray.reshape(-1, 256, 256, 1).astype('float') / 255.
         ans = model.predict(gray)
         print(ans)
         n = np.argmax(ans)
